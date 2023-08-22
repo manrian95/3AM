@@ -5,93 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3AM</title>
     <style>
-      body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-      }
-      
-      header {
-          background-color: #13BCFD;
-          color: white;
-          text-align: center;
-          padding: 1em 0;
-      }
-      
-      nav ul {
-          list-style: none;
-          padding: 0;
-      }
-      
-      nav ul li {
-          display: inline;
-          margin-right: 20px;
-      }
-      
-      nav a {
-          text-decoration: none;
-          color: white;
-          font-weight: bold;
-      }
-      
-      section {
-          padding: 2em;
-          margin: 2em 0;
-          border-top: 1px solid #ddd;
-      }
-      
-      footer {
-          text-align: center;
-          padding: 1em 0;
-      }
-      
-      /* Estilos específicos para secciones */
-      #quienes-somos {
-          background-color: #14B6FB;
-      }
-      
-      #nuestros-servicios ul {
-        background-color: #14B6FB;  
-        list-style: none;
-          padding: 0;
-      }
-      
-      #nuestros-servicios ul li {
-        background-color: #14B6FB;  
-        margin-bottom: 10px;
-      }
-      
-      #nuestro-equipo ul {
-        background-color: #14B6FB;  
-        list-style: none;
-          padding: 0;
-      }
-      
-      #nuestro-equipo ul li {
-        background-color: #14B6FB;  
-        margin-bottom: 10px;
-      }
-      
-      /* Estilos para enlaces dentro de las secciones */
-      #quienes-somos a,
-      #nuestros-servicios a,
-      #nuestra-experiencia a,
-      #nuestro-equipo a,
-      #contacto a {
-          color: #333;
-          text-decoration: underline;
-      }
-      
-      /* Estilos para enlaces en el encabezado de navegación */
-      nav a:hover {
-          color: #ff9900;
-      }
+        /* Estilos CSS anteriores */
 
-      /* Estilos para la imagen en el encabezado */
-      header img {
-          max-width: 200px; /* Cambia el tamaño según tu preferencia */
-          height: auto;
-      }
+        /* Estilos para la imagen en el encabezado */
+        header {
+            background-color: #13BCFD;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header img {
+            max-width: 200px; /* Cambia el tamaño según tu preferencia */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Estilos para la descripción en Quienes Somos */
+        #quienes-somos p {
+            max-width: 300px; /* Cambia el ancho máximo según tu preferencia */
+            margin: 0 auto;
+            text-align: left; /* Alineación a la izquierda */
+            margin-left: 20px; /* Mueve el texto a la izquierda */
+        }
+
+        /* Estilos para enlaces en el encabezado de navegación */
+        nav ul {
+            list-style: none;
+            display: flex; /* Alinea los enlaces de forma horizontal */
+            justify-content: center; /* Centra los enlaces horizontalmente */
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -111,9 +65,7 @@
 
     <section id="quienes-somos">
         <h2>Quienes Somos</h2>
-        <p>Somos una agencia de marketing que se especializa en ayudar a las empresas a alcanzar sus objetivos de marketing en redes sociales. Pero no somos una agencia cualquiera. Somos una mercadóloga, una profesional en lenguas modernas y un administrador de negocios internacionales que un día decidieron emprender su propia aventura . Nos apasiona el marketing en redes sociales, el marketing de contenidos, y nos encanta crear estrategias creativas y efectivas para nuestros clientes. 
-Nos gusta divertirnos, aprender cosas nuevas y enfrentarnos a nuevos retos. Somos una agencia joven, dinámica y con mucha energía.
-</p>
+        <p>Somos una agencia de marketing que se especializa en ayudar a las empresas a alcanzar sus objetivos de marketing en redes sociales. Pero no somos una agencia cualquiera. Somos una mercadóloga, una profesional en lenguas modernas y un administrador de negocios internacionales que un día decidieron emprender su propia aventura. Nos apasiona el marketing en redes sociales, el marketing de contenidos, y nos encanta crear estrategias creativas y efectivas para nuestros clientes. Nos gusta divertirnos, aprender cosas nuevas y enfrentarnos a nuevos retos. Somos una agencia joven, dinámica y con mucha energía.</p>
     </section>
 
     <section id="nuestros-servicios">
@@ -145,21 +97,21 @@ Nos gusta divertirnos, aprender cosas nuevas y enfrentarnos a nuevos retos. Somo
         <h2>Contacto</h2>
         <p>Ponte en contacto con nosotros: info@tudominio.com</p>
     </section>
-    <footer>
-    <p>&copy; 3AM. Todos los derechos reservados.</p>
-    <div class="redes-sociales">
-        <a href="https://facebook.com/tu_pagina" target="_blank" rel="noopener noreferrer">
-            <img src="facebook-icon.png" alt="Facebook">
-        </a>
-        <a href="https://twitter.com/tu_pagina" target="_blank" rel="noopener noreferrer">
-            <img src="twitter-icon.png" alt="Twitter">
-        </a>
-        <a href="https://instagram.com/tu_pagina" target="_blank" rel="noopener noreferrer">
-            <img src="instagram-icon.png" alt="Instagram">
-        </a>
-    </div>
-</footer>
 
-  
+    <footer>
+        <p>&copy; 3AM. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://facebook.com/tu_pagina" target="_blank" rel="noopener noreferrer">
+                <img src="facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/tu_pagina" target="_blank" rel="noopener noreferrer">
+                <img src="twitter-icon.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com/tu_pagina" target="_blank" rel="noopener noreferrer">
+                <img src="instagram-icon.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
+
