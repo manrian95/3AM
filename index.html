@@ -1,29 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3AM</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      
+      header {
+          background-color: #13BCFD;
+          color: white;
+          text-align: center;
+          padding: 1em 0;
+      }
+      
+      nav ul {
+          list-style: none;
+          padding: 0;
+      }
+      
+      nav ul li {
+          display: inline;
+          margin-right: 20px;
+      }
+      
+      nav a {
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+      }
+      
+      section {
+          padding: 2em;
+          margin: 2em 0;
+          border-top: 1px solid #ddd;
+      }
+      
+      footer {
+          text-align: center;
+          padding: 1em 0;
+      }
+      
+      /* Estilos específicos para secciones */
+      #quienes-somos {
+          background-color: #14B6FB;
+      }
+      
+      #nuestros-servicios ul {
+        background-color: #14B6FB;  
+        list-style: none;
+          padding: 0;
+      }
+      
+      #nuestros-servicios ul li {
+        background-color: #14B6FB;  
+        margin-bottom: 10px;
+      }
+      
+      #nuestro-equipo ul {
+        background-color: #14B6FB;  
+        list-style: none;
+          padding: 0;
+      }
+      
+      #nuestro-equipo ul li {
+        background-color: #14B6FB;  
+        margin-bottom: 10px;
+      }
+      
+      /* Estilos para enlaces dentro de las secciones */
+      #quienes-somos a,
+      #nuestros-servicios a,
+      #nuestra-experiencia a,
+      #nuestro-equipo a,
+      #contacto a {
+          color: #333;
+          text-decoration: underline;
+      }
+      
+      /* Estilos para enlaces en el encabezado de navegación */
+      nav a:hover {
+          color: #ff9900;
+      }
+
+      /* Estilos para la imagen en el encabezado */
+      header img {
+          max-width: 200px; /* Cambia el tamaño según tu preferencia */
+          height: auto;
+      }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>3AM</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Sobre 3AM</h2>
-      <p>Somos una agencia de marketing que se especializa en ayudar a las empresas a alcanzar sus objetivos de marketing en redes sociales. Pero no somos una agencia cualquiera. Somos una mercadóloga, una profesional en lenguas modernas y un administrador de negocios internacionales que un día decidieron emprender su propia aventura . Nos apasiona el marketing en redes sociales, el marketing de contenidos, y nos encanta crear estrategias creativas y efectivas para nuestros clientes. 
-Nos gusta divertirnos, aprender cosas nuevas y enfrentarnos a nuevos retos. Somos una agencia joven, dinámica y con mucha energía.</p>
+    <header>
+        <img src="https://drive.google.com/uc?export=download&id=1sr2N-UHEna-Z4TKNn08Z1r1J3EduOH5E" alt="Logo de la empresa">
+        <h1>Servicios de Marketing Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">Quienes Somos</a></li>
+                <li><a href="#nuestros-servicios">Nuestros Servicios</a></li>
+                <li><a href="#nuestra-experiencia">Nuestra Experiencia</a></li>
+                <li><a href="#nuestro-equipo">Nuestro Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quienes-somos">
+        <h2>Quienes Somos</h2>
+        <p>Descripción de tu empresa y su enfoque en el marketing digital.</p>
     </section>
-    <section>
-      <h2>¿Qué nos diferencia?</h2>
-      <p>Estamos a la vanguardia con las tendencias que mueven el mundo digital, utilizando herramientas avanzadas para planificar, ejecutar y medir tus campañas de redes sociales y optimizar tu sitio web. ofrecemos soluciones innovadoras, frescas y actuales que lleven tu marca al siguiente nivel sin importar si tu empresa es pequeña, mediana o grande, o si quieres promocionar tu marca personal.
-3AM es más que una agencia, somos tu aliado estratégico en el mundo digital.
-Un equipo de expertos a tu disposición. 
-</p>
+
+    <section id="nuestros-servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Servicio 1: Descripción del servicio 1.</li>
+            <li>Servicio 2: Descripción del servicio 2.</li>
+            <li>Servicio 3: Descripción del servicio 3.</li>
+            <!-- Agrega más servicios según sea necesario -->
+        </ul>
     </section>
-  </main>
-  <footer>
-    <p>Copyright &copy; 2023</p>
-  </footer>
+
+    <section id="nuestra-experiencia">
+        <h2>Nuestra Experiencia</h2>
+        <p>Resalta la experiencia y logros de tu empresa en el campo del marketing digital.</p>
+    </section>
+
+    <section id="nuestro-equipo">
+        <h2>Nuestro Equipo</h2>
+        <ul>
+            <li>Nombre 1 - Cargo</li>
+            <li>Nombre 2 - Cargo</li>
+            <li>Nombre 3 - Cargo</li>
+            <!-- Agrega más miembros del equipo si es necesario -->
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros: info@tudominio.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Empresa de Marketing Digital. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
